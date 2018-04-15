@@ -1,0 +1,21 @@
+:root {
+    /* Theme */
+    --primary-lighten: var(--purple-5);
+    --primary: var(--purple-6);
+    --primary-darken: var(--purple-7);
+    --info-lighten: var(--light-blue-5);
+    --info: var(--light-blue-6);
+    --info-darken: var(--light-blue-7);
+    --link-lighten: var(--blue-5);
+    --link: var(--blue-6);
+    --link-darken: var(--blue-7);
+    --success-lighten: var(--green-5);
+    --success: var(--green-6);
+    --success-darken: var(--green-7);
+    --warning-lighten: var(--yellow-5);
+    --warning: var(--yellow-6);
+    --warning-darken: var(--yellow-7);
+    --danger-lighten: var(--red-5);
+    --danger: var(--red-6);
+    --danger-darken: var(--red-7);
+}

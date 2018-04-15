@@ -1,18 +1,20 @@
 /* Base colors */
 
 :root {
+	--primary-hue: 293;
+	/* Primary Shades */
 	/* COLORS */
 	/* RED */
-	--red-1: #fff1f0;
-	--red-2: #ffccc7;
-	--red-3: #ffa39e;
-	--red-4: #ff7875;
-	--red-5: #ff4d4f;
-	--red-6: #f5222d;
-	--red-7: #cf1322;
-	--red-8: #a8071a;
-	--red-9: #820014;
-	--red-10: #5c0011;
+	--red-1: #fff0f0;
+	--red-2: #ffdbde;
+	--red-3: #ffb3ba;
+	--red-4: #ff8a99;
+	--red-5: #ff617b;
+	--red-6: #ff3860;
+	--red-7: #d9254f;
+	--red-8: #b3153f;
+	--red-9: #8c0a31;
+	--red-10: #660626;
 	/* Blue */
 	--blue-1: #ebf8ff;
 	--blue-2: #c2e9ff;
@@ -24,6 +26,17 @@
 	--blue-8: #044fb3;
 	--blue-9: #00388c;
 	--blue-10: #002566;
+	/* Light-blue */
+	--light-blue-1: #E1F5FE;
+	--light-blue-2: #B3E5FC;
+	--light-blue-3: #81D4FA;
+	--light-blue-4: #4FC3F7;
+	--light-blue-5: #29B6F6;
+	--light-blue-6: #03A9F4;
+	--light-blue-7: #039BE5;
+	--light-blue-8: #0288D1;
+	--light-blue-9: #0277BD;
+	--light-blue-10: #01579B;
 	/* Green */
 	--green-1: #f0fff4;
 	--green-2: #dbffe5;
@@ -69,16 +82,16 @@
 	--cyan-9: #00545c;
 	--cyan-10: #002f36;
 	/* Purple */
-	--purple-1: #f9f0ff;
-	--purple-2: #efdbff;
-	--purple-3: #d3adf7;
-	--purple-4: #b37feb;
-	--purple-5: #9254de;
-	--purple-6: #722ed1;
-	--purple-7: #531dab;
-	--purple-8: #391085;
-	--purple-9: #22075e;
-	--purple-10: #120338;
+	--purple-1: #f0e1ef;
+	--purple-2: #e2c3e3;
+	--purple-3: #d396d6;
+	--purple-4: #c26dc9;
+	--purple-5: #af48bd;
+	--purple-6: #9c27b0;
+	--purple-7: #8E24AA;
+	--purple-8: #7B1FA2;
+	--purple-9: #6A1B9A;
+	--purple-10: #4A148C;
 	/* Grey */
 	--grey-1: #fafafa;
 	--grey-2: #f5f5f5;
@@ -88,8 +101,8 @@
 	--grey-6: #bfbfbf;
 	--grey-7: #8c8c8c;
 	--grey-8: #595959;
-	--grey-9: #262626;
-	--grey-10: #212121;
+	--grey-9: #404040;
+	--grey-10: #262626;
 	/* Regular */
 	--white: #ffffff;
 	--black: #000000;
