@@ -1,0 +1,47 @@
+.has-background-white {
+    background: var(--white);
+}
+
+.has-background-black {
+    background: var(--black);
+}
+
+.has-background-light {
+    background: var(--grey-4);
+}
+
+.has-background-lighter {
+    background: var(--grey-2);
+}
+
+.has-background-dark {
+    background: var(--grey-8);
+}
+
+.has-background-darker {
+    background: var(--grey-10);
+}
+
+.has-background-primary {
+    background: var(--primary);
+}
+
+.has-background-info {
+    background: var(--info);
+}
+
+.has-background-link {
+    background: var(--link);
+}
+
+.has-background-success {
+    background: var(--success);
+}
+
+.has-background-warning {
+    background: var(--warning);
+}
+
+.has-background-danger {
+    background: var(--danger);
+}
