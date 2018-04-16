@@ -10,11 +10,12 @@
 	--red-3: #ffb3ba;
 	--red-4: #ff8a99;
 	--red-5: #ff617b;
-	--red-6: #ff3860;
-	--red-7: #d9254f;
-	--red-8: #b3153f;
+	--red-6: #fd4469;
+	--red-7: #e93861;
+	--red-8: #db315e;
 	--red-9: #8c0a31;
 	--red-10: #660626;
+	--red-shadow: #ff386040;
 	/* Blue */
 	--blue-1: #ebf8ff;
 	--blue-2: #c2e9ff;
@@ -26,6 +27,7 @@
 	--blue-8: #044fb3;
 	--blue-9: #00388c;
 	--blue-10: #002566;
+	--blue-shadow: #1e90ff40;
 	/* Light-blue */
 	--light-blue-1: #E1F5FE;
 	--light-blue-2: #B3E5FC;
@@ -37,6 +39,7 @@
 	--light-blue-8: #0288D1;
 	--light-blue-9: #0277BD;
 	--light-blue-10: #01579B;
+	--light-blue-shadow: #03A9F440;
 	/* Green */
 	--green-1: #f0fff4;
 	--green-2: #dbffe5;
@@ -44,21 +47,23 @@
 	--green-4: #81f0a8;
 	--green-5: #56e38c;
 	--green-6: #2ed573;
-	--green-7: #1eb060;
-	--green-8: #118a4b;
+	--green-7: #24b866;
+	--green-8: #1ea15e;
 	--green-9: #076337;
 	--green-10: #043d23;
+	--green-shadow: #2ed57340;
 	/* Yellow */
 	--yellow-1: #fffef0;
 	--yellow-2: #fffbd4;
 	--yellow-3: #fff5ab;
 	--yellow-4: #ffec82;
-	--yellow-5: #ffe159;
-	--yellow-6: #fed330;
-	--yellow-7: #d9aa1e;
-	--yellow-8: #b38410;
+	--yellow-5: #ffe260;
+	--yellow-6: #ffdb57;
+	--yellow-7: #ffd147;
+	--yellow-8: #f3c552;
 	--yellow-9: #8c6206;
 	--yellow-10: #664303;
+	--yellow-shadow: #fed33040;
 	/* Orange */
 	--orange-1: #fffae6;
 	--orange-2: #ffeca6;
@@ -70,6 +75,7 @@
 	--orange-8: #b36800;
 	--orange-9: #8c4d00;
 	--orange-10: #663500;
+	--orange-shadow: #ffa50240;
 	/* Cyan */
 	--cyan-1: #e6fffa;
 	--cyan-2: #a3fff1;
@@ -81,6 +87,7 @@
 	--cyan-8: #007c82;
 	--cyan-9: #00545c;
 	--cyan-10: #002f36;
+	--cyan-shadow: #00cec940;
 	/* Purple */
 	--purple-1: #f0e1ef;
 	--purple-2: #e2c3e3;
@@ -92,6 +99,7 @@
 	--purple-8: #7B1FA2;
 	--purple-9: #6A1B9A;
 	--purple-10: #4A148C;
+	--purple-shadow: #9c27b040;
 	/* Grey */
 	--grey-1: #fafafa;
 	--grey-2: #f5f5f5;
@@ -103,6 +111,7 @@
 	--grey-8: #595959;
 	--grey-9: #404040;
 	--grey-10: #262626;
+	--grey-shadow: #26262640;
 	/* Regular */
 	--white: #ffffff;
 	--black: #000000;
