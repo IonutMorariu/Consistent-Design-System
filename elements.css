@@ -59,6 +59,11 @@ button::-moz-focus-inner {
     outline: none;
 }
 
+.button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .button:hover {
     border: 1px solid var(--grey-7);
     color: var(--grey-10);
@@ -74,7 +79,7 @@ button::-moz-focus-inner {
     box-shadow: 0 0 0 2px var(--blue-shadow);
 }
 
-.button.rounded {
+.button.is-rounded {
     border-radius: 500px;
 }
 
@@ -612,4 +617,386 @@ button::-moz-focus-inner {
     border-color: var(--white);
     box-shadow: none;
     color: var(--white);
+}
+
+/* Extra buttons */
+
+.button.is-white {
+    background-color: var(--white);
+    border-color: transparent;
+    color: var(--black);
+}
+
+.button.is-white:hover,
+.button.is-white.is-hovered {
+    background-color: var(--grey-2);
+    border-color: transparent;
+    color: var(--black);
+}
+
+.button.is-white:focus,
+.button.is-white.is-focused {
+    border-color: transparent;
+    color: var(--black);
+}
+
+.button.is-white:focus:not(:active),
+.button.is-white.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25);
+}
+
+.button.is-white:active,
+.button.is-white.is-active {
+    background-color: var(--grey-1);
+    border-color: transparent;
+    color: var(--black);
+}
+
+.button.is-white[disabled] {
+    background-color: var(--white);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.button.is-white.is-inverted {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.button.is-white.is-inverted:hover {
+    background-color: black;
+}
+
+.button.is-white.is-inverted[disabled] {
+    background-color: var(--black);
+    border-color: transparent;
+    box-shadow: none;
+    color: var(--white);
+}
+
+.button.is-white.is-outlined {
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.button.is-white.is-outlined:hover,
+.button.is-white.is-outlined:focus {
+    background-color: white;
+    border-color: white;
+    color: var(--black);
+}
+
+.button.is-white.is-outlined.is-loading::after {
+    border-color: transparent transparent white white !important;
+}
+
+.button.is-white.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--white);
+    box-shadow: none;
+    color: var(--white);
+}
+
+.button.is-white.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: var(--black);
+    color: var(--black);
+}
+
+.button.is-white.is-inverted.is-outlined:hover,
+.button.is-white.is-inverted.is-outlined:focus {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.button.is-white.is-inverted.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--black);
+    box-shadow: none;
+    color: var(--black);
+}
+
+.button.is-black {
+    background-color: var(--black);
+    border-color: transparent;
+    color: var(--white);
+}
+
+.button.is-black:hover,
+.button.is-black.is-hovered {
+    background-color: black;
+    border-color: transparent;
+    color: var(--white);
+}
+
+.button.is-black:focus,
+.button.is-black.is-focused {
+    border-color: transparent;
+    color: var(--white);
+}
+
+.button.is-black:focus:not(:active),
+.button.is-black.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em var(--grey-shadow);
+}
+
+.button.is-black:active,
+.button.is-black.is-active {
+    background-color: var(--black);
+    border-color: transparent;
+    color: var(--white);
+}
+
+.button.is-black[disabled] {
+    background-color: var(--black);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.button.is-black.is-inverted {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.button.is-black.is-inverted:hover {
+    background-color: var(--white);
+}
+
+.button.is-black.is-inverted[disabled] {
+    background-color: var(--white);
+    border-color: transparent;
+    box-shadow: none;
+    color: var(--black);
+}
+
+.button.is-black.is-outlined {
+    background-color: transparent;
+    border-color: var(--black);
+    color: var(--black);
+}
+
+.button.is-black.is-outlined:hover,
+.button.is-black.is-outlined:focus {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--white);
+}
+
+.button.is-black.is-outlined.is-loading::after {
+    border-color: transparent transparent var(--black) var(--black) !important;
+}
+
+.button.is-black.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--black);
+    box-shadow: none;
+    color: var(--black);
+}
+
+.button.is-black.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.button.is-black.is-inverted.is-outlined:hover,
+.button.is-black.is-inverted.is-outlined:focus {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.button.is-black.is-inverted.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--white);
+    box-shadow: none;
+    color: var(--white);
+}
+
+.button.is-light {
+    background-color: var(--grey-3);
+    border-color: transparent;
+    color: var(--grey-9);
+}
+
+.button.is-light:hover,
+.button.is-light.is-hovered {
+    background-color: var(--grey-4);
+    border-color: transparent;
+    color: var(--grey-9);
+}
+
+.button.is-light:focus,
+.button.is-light.is-focused {
+    border-color: transparent;
+    color: var(--grey-9);
+}
+
+.button.is-light:focus:not(:active),
+.button.is-light.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em rgba(245, 245, 245, 0.25);
+}
+
+.button.is-light:active,
+.button.is-light.is-active {
+    background-color: var(--grey-3);
+    border-color: transparent;
+    color: var(--grey-9);
+}
+
+.button.is-light[disabled] {
+    background-color: var(--grey-3);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.button.is-light.is-inverted {
+    background-color: var(--grey-9);
+    color: var(--grey-3);
+}
+
+.button.is-light.is-inverted:hover {
+    background-color: var(--grey-9);
+}
+
+.button.is-light.is-inverted[disabled] {
+    background-color: var(--grey-9);
+    border-color: transparent;
+    box-shadow: none;
+    color: var(--grey-3);
+}
+
+.button.is-light.is-loading::after {
+    border-color: transparent transparent var(--grey-9) var(--grey-9) !important;
+}
+
+.button.is-light.is-outlined {
+    background-color: transparent;
+    border-color: var(--grey-3);
+    color: var(--grey-3);
+}
+
+.button.is-light.is-outlined:hover,
+.button.is-light.is-outlined:focus {
+    background-color: var(--grey-3);
+    border-color: var(--grey-3);
+    color: var(--grey-9);
+}
+
+.button.is-light.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--grey-3);
+    box-shadow: none;
+    color: var(--grey-3);
+}
+
+.button.is-light.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: var(--grey-9);
+    color: var(--grey-9);
+}
+
+.button.is-light.is-inverted.is-outlined:hover,
+.button.is-light.is-inverted.is-outlined:focus {
+    background-color: var(--grey-9);
+    color: var(--grey-3);
+}
+
+.button.is-light.is-inverted.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--grey-9);
+    box-shadow: none;
+    color: var(--grey-9);
+}
+
+.button.is-dark {
+    background-color: var(--grey-9);
+    border-color: transparent;
+    color: var(--grey-3);
+}
+
+.button.is-dark:hover,
+.button.is-dark.is-hovered {
+    background-color: var(--grey-10);
+    border-color: transparent;
+    color: var(--grey-3);
+}
+
+.button.is-dark:focus,
+.button.is-dark.is-focused {
+    border-color: transparent;
+    color: var(--grey-3);
+}
+
+.button.is-dark:focus:not(:active),
+.button.is-dark.is-focused:not(:active) {
+    box-shadow: 0 0 0 0.125em var(--grey-shadow);
+}
+
+.button.is-dark:active,
+.button.is-dark.is-active {
+    background-color: var(--grey-10);
+    border-color: transparent;
+    color: var(--grey-3);
+}
+
+.button.is-dark[disabled] {
+    background-color: var(--grey-9);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.button.is-dark.is-inverted {
+    background-color: var(--grey-3);
+    color: var(--grey-9);
+}
+
+.button.is-dark.is-inverted:hover {
+    background-color: var(--grey-3);
+}
+
+.button.is-dark.is-inverted[disabled] {
+    background-color: var(--grey-3);
+    border-color: transparent;
+    box-shadow: none;
+    color: var(--grey-9);
+}
+
+.button.is-dark.is-outlined {
+    background-color: transparent;
+    border-color: var(--grey-9);
+    color: var(--grey-9);
+}
+
+.button.is-dark.is-outlined:hover,
+.button.is-dark.is-outlined:focus {
+    background-color: var(--grey-9);
+    border-color: var(--grey-9);
+    color: var(--grey-3);
+}
+
+.button.is-dark.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--grey-9);
+    box-shadow: none;
+    color: var(--grey-9);
+}
+
+.button.is-dark.is-inverted.is-outlined {
+    background-color: transparent;
+    border-color: var(--grey-3);
+    color: var(--grey-3);
+}
+
+.button.is-dark.is-inverted.is-outlined:hover,
+.button.is-dark.is-inverted.is-outlined:focus {
+    background-color: var(--grey-3);
+    color: var(--grey-9);
+}
+
+.button.is-dark.is-inverted.is-outlined[disabled] {
+    background-color: transparent;
+    border-color: var(--grey-3);
+    box-shadow: none;
+    color: var(--grey-3);
 }
