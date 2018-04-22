@@ -1,45 +1,46 @@
 :root {
-    /* Theme */
-    /* 
+	/* Theme */
+	/* 
     *   Brand color
     */
-    --primary-lighter: var(--purple-4);
-    --primary-light: var(--purple-5);
-    --primary: var(--purple-6);
-    --primary-dark: var(--purple-7);
-    --primary-darker: var(--purple-8);
-    --primary-shadow: var(--purple-shadow);
-    /* 
+
+	--primary-lighter: var(--yellow-4);
+	--primary-light: var(--yellow-5);
+	--primary: var(--yellow-6);
+	--primary-dark: var(--yellow-7);
+	--primary-darker: var(--yellow-8);
+	--primary-shadow: var(--yellow-shadow);
+	/* 
     *   Rest of colors
     */
-    --info-lighter: var(--light-blue-4);
-    --info-light: var(--light-blue-5);
-    --info: var(--light-blue-6);
-    --info-dark: var(--light-blue-7);
-    --info-darker: var(--light-blue-8);
-    --info-shadow: var(--light-blue-shadow);
-    --link-lighter: var(--blue-4);
-    --link-light: var(--blue-5);
-    --link: var(--blue-6);
-    --link-dark: var(--blue-7);
-    --link-darker: var(--blue-8);
-    --link-shadow: var(--blue-shadow);
-    --success-lighter: var(--green-4);
-    --success-light: var(--green-5);
-    --success: var(--green-6);
-    --success-dark: var(--green-7);
-    --success-darker: var(--green-8);
-    --success-shadow: var(--green-shadow);
-    --warning-lighter: var(--yellow-4);
-    --warning-light: var(--yellow-5);
-    --warning: var(--yellow-6);
-    --warning-dark: var(--yellow-7);
-    --warning-darker: var(--yellow-8);
-    --warning-shadow: var(--yellow-shadow);
-    --danger-lighter: var(--red-4);
-    --danger-light: var(--red-5);
-    --danger: var(--red-6);
-    --danger-dark: var(--red-7);
-    --danger-darker: var(--red-8);
-    --danger-shadow: var(--red-shadow);
+	--info-lighter: var(--light-blue-4);
+	--info-light: var(--light-blue-5);
+	--info: var(--light-blue-6);
+	--info-dark: var(--light-blue-7);
+	--info-darker: var(--light-blue-8);
+	--info-shadow: var(--light-blue-shadow);
+	--link-lighter: var(--blue-4);
+	--link-light: var(--blue-5);
+	--link: var(--blue-6);
+	--link-dark: var(--blue-7);
+	--link-darker: var(--blue-8);
+	--link-shadow: var(--blue-shadow);
+	--success-lighter: var(--green-4);
+	--success-light: var(--green-5);
+	--success: var(--green-6);
+	--success-dark: var(--green-7);
+	--success-darker: var(--green-8);
+	--success-shadow: var(--green-shadow);
+	--warning-lighter: var(--yellow-4);
+	--warning-light: var(--yellow-5);
+	--warning: var(--yellow-6);
+	--warning-dark: var(--yellow-7);
+	--warning-darker: var(--yellow-8);
+	--warning-shadow: var(--yellow-shadow);
+	--danger-lighter: var(--red-4);
+	--danger-light: var(--red-5);
+	--danger: var(--red-6);
+	--danger-dark: var(--red-7);
+	--danger-darker: var(--red-8);
+	--danger-shadow: var(--red-shadow);
 }
